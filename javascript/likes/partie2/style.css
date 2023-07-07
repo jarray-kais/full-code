@@ -1,0 +1,63 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.head{
+  background-color: black;
+  color: white;
+  margin: 0px 200px;
+}
+.head h1{
+  margin-left: 20px;
+}
+.title{
+  margin: 10px 200px;
+  text-align: center;
+}
+#img{
+ height: auto ;
+  width: 100px;
+}
+.avatar{
+  padding: 20px;
+  text-align: center;
+  border: 2px solid black;
+}
+.left{
+  flex: 1;
+}
+.row{
+  margin: auto 200px;
+  height: 500px;
+  display: flex;
+  
+}
+#btn {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(247, 243, 24);
+  color:black;
+  border: 1px solid black;
+  box-shadow: 3px 2px black;
+}
+.bloc-likes{
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #999;
+    font-size: 1.2rem;
+}
+.some{
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+ 
+}
+.parag{
+  margin-left: 10px;
+}
+.all-bloc{
+  flex: 2;
+  margin-left: 30px;
+}

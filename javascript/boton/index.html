@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dojonary</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <!--barre nav-->
+  <div class="nav">
+    <div class="title">
+      <h1>Dojonary</h1>
+    </div>
+    <div class="search">
+      <form>
+      <input type="text" name="search" placeholder="search">
+    </form>
+    </div>
+    <div class="btn">
+      <button onclick=btnchange(this)>login </button>
+    </div>
+  </div>
+  <!--contain page -->
+  <!--two bloc ninja-->
+  <div class="all-bloc">
+  <div class="bloc-ninja">
+    <div class="ninja-1">
+      <div class="noun">
+        <div><h2>ninja</h2></div>
+        <div><p>noun </p> </div>
+          <div>plural: ninjas</div>
+        
+        <button id="like-btn">13 likes</button>
+      </div>
+      <div class="ninjatusu">
+        <p> A practionner skilled in the <a href="#">japanese</a>  art of <a href="#">ninjutsu</a> </p>
+      </div>
+    </div>
+    <div class="ninja-2">
+      <div class="noun">
+        <div><h2>ninja</h2></div>
+        <div><p>noun </p> </div>
+          <div>plural: ninjas</div>
+        
+        <button onclick= pop() id="like-btn">37 likes</button>
+      </div>
+      <div class="ninjatusu">
+        <p> A practionner skilled in the <a href="#">japanese</a>  art of <a href="#">ninjutsu</a> </p>
+      </div>
+    </div>
+        </div>
+   
+    <div class="definition">
+      <div class="text">
+        <h1>Dojonary is defined by you</h1>
+      </div>
+      <div>
+        <button onclick=hiden(this) id="btn-defined">Add defined</button>
+      </div>
+    </div>
+   </div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

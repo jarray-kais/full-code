@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  border: 0px;
+}
+.nav{
+  margin: 0px 100px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  background-color: lightslategrey;
+  align-items: center;
+
+}
+.btn button{
+  width: 80px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+  box-shadow: 5px 5px 2px black;
+}
+.ninja-1{
+  width: 400px;
+  height: 150px;
+  border: 2px solid black ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ninja-2{
+  width: 400px;
+  height: 150px;
+  border: 2px solid black ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#like-btn{
+  width: 80px;
+  height: 30px;
+  background-color: #ffd900;
+  color: #111111;
+  box-shadow: 5px 5px 2px black;
+
+}
+.ninjatusu{
+  height: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.noun{
+  width: 33%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.definition{
+  margin-top: 30px;
+  border: 2px solid black ;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.text{
+  margin: 0px 10px;
+}
+#btn-defined{
+  width: 200px;
+  height: 25px;
+  background-color: hsl(84, 63%, 32%);
+  color: black;
+  box-shadow: 5px 3px 3px black;
+}
+.bloc-ninja{
+  width:400px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.all-bloc{
+  display: flex;
+  justify-content: space-around;
+  
+}

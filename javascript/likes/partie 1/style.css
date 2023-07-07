@@ -1,0 +1,31 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.bloc-likes{
+  margin: auto;
+  margin-top: 20px;
+  width: 400px;
+  height: 150px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  
+}
+#btn{
+  width: 50px;
+  height: 30px;
+  background-color: rgb(247, 243, 24);
+  color:black;
+  border: 1px solid black;
+  box-shadow: 3cap 5px black;
+}
+.some{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.parag{
+  margin-left: 10px;
+}
