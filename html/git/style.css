@@ -1,0 +1,40 @@
+.container1{
+  height: 150px;
+  margin: 20px;
+  padding: 30px;
+  background-color: aqua;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+ 
+.container2{
+  height:150px;
+  margin: 20px;
+  padding: 30px;
+  background-color: pink;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+.container3{
+  
+  height: 150px;
+  margin: 20px;
+  padding: 30px;
+  background-color: rgb(131, 182, 182);
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+.container{
+background-color: rgb(210, 243, 232);
+ display:block;
+}
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+}

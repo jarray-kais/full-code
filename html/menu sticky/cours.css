@@ -1,0 +1,71 @@
+/*rest css*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    width: 25%;   /*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;/*Centre le texte dans les éléments de menu*/
+    position: relative;
+}
+
+
+/*Evite que le menu n'ait une hauteur nulle*/
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav{
+    width: 100%;
+    margin: 0px auto;/*top right bottom left /auto=0*/
+    background-color: violet;
+    position: sticky;
+    top: 0px;
+
+}
+nav a{
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none; /*supprimer toute le declaration du texte*/
+    color: black;
+    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+
+}
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #ccc;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 100%;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: rgba(200,200, 200,0.1);
+}
+.deroulant > a::after{
+    content: " ▼" ;
+    font-size: 12px;
+}

@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#img1{
+  width: 100px;
+  border: 2px solid #999 ;
+  font-size: 1rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+  top: -50px;
+  margin-left: 20px;
+}
+#img2{
+  width: 10px;
+}
+#img3{
+  width: 20px;
+}
+
+.div{
+ 
+  border: 2px solid #2e2c2c;
+  background-color: white;
+  border-block-start: 4em solid lightblue;
+  margin: 50px 40%;
+  width: 350px ;
+} 
+ 
+#div1 { 
+  margin-left: 20px;
+  position: relative;
+  top: -50px;
+  height: auto;
+}
+#map,#gear {
+  
+  display: flex;
+  align-items: center;
+}
