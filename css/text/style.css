@@ -1,0 +1,24 @@
+#div1{
+
+background-color: black;
+text-align: left;
+}
+h1{
+  color: blue;
+}
+#span{
+  color: white;
+}
+#div2{
+  background-color: purple;
+  text-align: center;
+  font-style: italic;
+}
+#div3{
+  background-color: aqua;
+  text-align: right;
+  text-decoration:underline;
+}
+h2{
+  color: white;
+}
